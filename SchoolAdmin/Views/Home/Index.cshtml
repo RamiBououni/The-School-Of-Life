@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 class="text-center">School Of Life</h1>
+    <p class="text-center lead">We are all students of life, nobody is perfect except our creator.</p>
+    <div class="divBtn text-center">
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Students")'">Manage School</button>
+    </div>  
+</div>
+
+<div class="row">
+    <div class="imgdiv col-md-4">
+        <img class="img-responsive thumbnail" src="~/Content/Images/pic1.jpg" />
+    </div>
+    <div class="imgdiv col-md-4">
+        <img class="img-responsive thumbnail" src="~/Content/Images/pic2.jpg" />
+    </div>
+    <div class="imgdiv col-md-4">
+        <img class="img-responsive thumbnail" src="~/Content/Images/pic3.jpg" />
+    </div>
+</div>
